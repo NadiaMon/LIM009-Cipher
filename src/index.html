@@ -5,11 +5,37 @@
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
+
+<!--los botones de salir aún no se ejecutan-->
+    <div id="first">
+     <h1>Pantalla de bienvenida</h1>
+     <p>Aqui en esta sección deberían estar las instrucciones de la aplicación</p>
+     <button type="button"  id="cipher">Cifrar</button> 
+     <button type="button" id="decipher">Descifrar</button>
     </div>
+
+    <div id="second" hidden>
+      <input type="text" id="ftext" placeholder="Aquí va tu mensaje..."></input>
+      Recuerda seleccionar el offset: <input type="number" id="atentacles" min="0" max="10"></input>
+      <button type="button" id="result-a">Cifrar</button> <!--este botón es para ejecutar el algoritmo cesar-->
+      <input type="text" id="message"></input>
+      <button type="button" id="decipher-b">Descifrar</button>
+      <button type="button" id="exit">Salir</button>
+    </div>
+
+    <div id="third" hidden>
+     <input type="text" id="message" placeholder="Aquí va tu mensaje..."></input>
+     Recuerda seleccionar el offset: <input type="number" id="btentacles" min="0" max="10"></input>
+     <button type="button" id="result-b">Descifrar</button> <!--este botón es para ejecutar el algoritmo cesar-->
+     <input type="text" id="smessage"></input>
+     <button type="button" id="cipher-b">Cifrar</button>
+     <button type="button" id="exit-b">Salir</button> 
+    </div>
+
     <script src="cipher.js"></script>
     <script src="index.js"></script>
+       
   </body>
 </html>
