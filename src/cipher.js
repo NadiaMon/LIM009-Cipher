@@ -12,7 +12,7 @@ window.cipher = {
         let lettersNew = String.fromCharCode(asciiNumber);
         textNew = textNew+lettersNew;
       }else{
-        textNew=textNew+ string[i];
+        textNew=textNew + string[i];
     }
     }
 
