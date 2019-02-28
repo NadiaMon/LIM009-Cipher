@@ -1,30 +1,34 @@
 @import 'https://fonts.googleapis.com/css?family=Roboto';
 
 * {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
 
-  body {
-    margin: 0;
-    width: calc(100vw - 25px);
-    height: 100vh;
-    display: block;
-    text-align: center;   
-    font-family: 'Roboto', sans-serif;
-  }
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  /*display: block;*/
+  text-align: center;   
+  font-family: 'Roboto', sans-serif;
+}
 
-  div {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-  }
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  width: 100%;
+  height: 600px;
+  padding: 150px; /*espacio entre contenido y borde*/
+}
 
-  input[type=text], select {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
   }

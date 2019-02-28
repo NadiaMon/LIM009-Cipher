@@ -10,21 +10,23 @@
 
 <!--los botones de salir aún no se ejecutan-->
       <div id="second">
+      <h1>CipherNotes</h1>
       <input type="text" id="ftext" placeholder="Aquí va tu mensaje..."></input>
       Recuerda seleccionar el offset: <input type="number" id="firstOffset" min="1"></input>
       <button type="button" id="resultA">Cifrar</button> <!--este botón es para ejecutar el algoritmo cesar-->
       <input type="text" id="fmessage"></input>
-      <button type="button" id="decipherB">Descifrar</button>
-      <button type="button" id="exit">Salir</button>
+      <button type="button" id="decipherB">Ir a descifrar</button>
+      <button type="reset" id="exit">Limpiar campos</button>
     </div>
 
     <div id="third" hidden>
+     <h1>CipherNotes</h1>
      <input type="text" id="stext" placeholder="Aquí va tu mensaje..."></input>
      Recuerda seleccionar el offset: <input type="number" id="secondOffset" min="1"></input>
      <button type="button" id="resultB">Descifrar</button> <!--este botón es para ejecutar el algoritmo cesar-->
      <input type="text" id="smessage"></input>
-     <button type="button" id="cipherB">Cifrar</button>
-     <button type="button" id="exitB">Salir</button> 
+     <button type="button" id="cipherB">Ir a cifrar</button>
+     <button type="reset" id="exitB">Limpiar campos</button> 
     </div>
 
     <script src="cipher.js"></script>

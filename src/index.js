@@ -15,12 +15,6 @@ decipherTwo.addEventListener ("click", secondDecipher); //check
 const cipherTwo = document.getElementById ("cipherB");
 cipherTwo.addEventListener ("click", cipherDos); //check
 
-const exitPage = document.getElementById ("exit");
-//exitPage.addEventListener ("click", out); //mantener en espera, encontrar cómo salir de la página
-
-const exitTwo = document.getElementById ("exitB");
-//exitTwo.addEventListener ("click", secondOut); //mantener en espera, encontrar cómo salir de la página
-
 // para cambiar a arrow const name = () => {}
 
 function secondDecipher () {
@@ -37,17 +31,26 @@ function cipherDos () {
 
 const cipherClick = () => {
 
-let word = captureText.value.toUpperCase();
-let number = parseInt(cipherOffset.value);
+ let word = captureText.value.toUpperCase();
+ let number = parseInt(cipherOffset.value);
 
-// esto dará el nuevo mensaje
-cipherText.value = cipher.encode(number,word);
-}
+ // devuelve el mensaje ya cifrado
+ cipherText.value = cipher.encode(number,word);
+ }
+
+const decipherClick = () => {
+
+ let word = printText.value.toUpperCase();
+ let number = parseInt(decipherOffset.value);
+    
+ // devuelve el mensaje original
+ decipherText.value = cipher.decode(number,word);
+ }
 
 
 //hacer que el algoritmo que sucede en el btn cifrar se
 //imprima en el cuadro
 btnCipher.addEventListener("click",cipherClick)
-//btnDecipher.addEventListener("click",decipherClick)
+btnDecipher.addEventListener("click",decipherClick)
 
 
