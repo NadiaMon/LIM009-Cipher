@@ -53,4 +53,3 @@ const decipherClick = () => {
 btnCipher.addEventListener("click",cipherClick)
 btnDecipher.addEventListener("click",decipherClick)
 
-
