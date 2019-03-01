@@ -9,6 +9,13 @@ let btnDecipher = document.getElementById ("resultB") //botón de decifrado
 let decipherText = document.getElementById("smessage")// imprimir el texto decodificado
 
 //definir variables y funciones para cambiar de un div a otro
+
+const firstBtn = document.getElementById("optionCipher");
+firstBtn.addEventListener ("click", textCipher); //check
+
+const secondBtn = document.getElementById ("optionDecipher");
+secondBtn.addEventListener ("click", textDecipher); //check
+
 const decipherTwo = document.getElementById ("decipherB");
 decipherTwo.addEventListener ("click", secondDecipher); //check
 
@@ -16,6 +23,18 @@ const cipherTwo = document.getElementById ("cipherB");
 cipherTwo.addEventListener ("click", cipherDos); //check
 
 // para cambiar a arrow const name = () => {}
+
+function textCipher () {
+    document.getElementById ("first").hidden = true;
+    document.getElementById ("second").hidden = false;
+    document.getElementById ("third").hidden = true;
+}
+
+function textDecipher () {
+    document.getElementById ("first").hidden = true;
+    document.getElementById ("second").hidden = true;
+    document.getElementById ("third").hidden = false; 
+}
 
 function secondDecipher () {
     document.getElementById ("second").hidden = true;
