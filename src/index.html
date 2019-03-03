@@ -18,23 +18,27 @@
     </div>
 
     <div id="second" hidden>
-      <h1>CipherNotes</h1>
-      <input type="text" id="ftext" placeholder="Aquí va tu mensaje..."></input>
-      Recuerda seleccionar el offset: <input type="number" id="firstOffset" min="1"></input>
-      <button type="button" id="resultA">Cifrar</button> <!--este botón es para ejecutar el algoritmo cesar-->
-      <input type="text" id="fmessage"></input>
-      <button type="button" id="decipherB">Ir a descifrar</button>
-      <button type="reset" id="exit">Limpiar campos</button>
+       <h1>CipherNotes</h1>
+     <form id="cipherForm">
+       <input type="text" id="captureText" placeholder="Aquí va tu mensaje..."></input>
+       Recuerda seleccionar el offset: <input type="number" id="cipherOffset" min="1"></input>
+       <button type="button" id="btnCipher">Cifrar</button> <!--este botón es para ejecutar el algoritmo cesar-->
+       <input type="text" id="cipherText"></input>
+     </form>  
+       <button type="button" id="decipherB">Ir a descifrar</button>
+       <button type="button" id="firstReset">Limpiar campos</button>
     </div>
 
     <div id="third" hidden>
-      <h1>CipherNotes</h1>
-      <input type="text" id="stext" placeholder="Aquí va tu mensaje..."></input>
-      Recuerda seleccionar el offset: <input type="number" id="secondOffset" min="1"></input>
-      <button type="button" id="resultB">Descifrar</button> <!--este botón es para ejecutar el algoritmo cesar-->
-      <input type="text" id="smessage"></input>
+      <h1>DecipherNotes</h1>
+      <form id="decipherForm">
+      <input type="text" id="printText" placeholder="Aquí va tu mensaje..."></input>
+      Recuerda seleccionar el offset: <input type="number" id="decipherOffset" min="1"></input>
+      <button type="button" id="btnDecipher">Descifrar</button> <!--este botón es para ejecutar el algoritmo cesar-->
+      <input type="text" id="decipherText"></input>
+      </form>
       <button type="button" id="cipherB">Ir a cifrar</button>
-      <button type="reset" id="exitB">Limpiar campos</button> 
+      <button type="button" id="secondReset">Limpiar campos</button> 
     </div>
 
     <script src="cipher.js"></script>

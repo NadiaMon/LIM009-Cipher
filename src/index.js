@@ -1,51 +1,42 @@
-//declarar variables para llamar los input de texto y offset
-let captureText = document.getElementById ("ftext") // texto a cifrar
-let cipherOffset = document.getElementById ("firstOffset") // offset de cifrado
-let btnCipher = document.getElementById ("resultA") //botón de cifrado
-let cipherText = document.getElementById("fmessage")// imprimir el texto codificado
-let printText = document.getElementById ("stext"); // texto a descifrar
-let decipherOffset = document.getElementById ("secondOffset"); // offset de descifrar
-let btnDecipher = document.getElementById ("resultB") //botón de decifrado
-let decipherText = document.getElementById("smessage")// imprimir el texto decodificado
-
 //definir variables y funciones para cambiar de un div a otro
 
 const firstBtn = document.getElementById("optionCipher");
-firstBtn.addEventListener ("click", textCipher); //check
+firstBtn.addEventListener ("click", textCipher = () => {
+
+document.getElementById ("first").hidden = true;
+document.getElementById ("second").hidden = false;
+document.getElementById ("third").hidden = true;
+
+}); //check
 
 const secondBtn = document.getElementById ("optionDecipher");
-secondBtn.addEventListener ("click", textDecipher); //check
+secondBtn.addEventListener ("click", textDecipher = () => {
+
+document.getElementById ("first").hidden = true;
+document.getElementById ("second").hidden = true;
+document.getElementById ("third").hidden = false; 
+
+}); //check
 
 const decipherTwo = document.getElementById ("decipherB");
-decipherTwo.addEventListener ("click", secondDecipher); //check
+decipherTwo.addEventListener ("click", secondDecipher = () => {
+
+document.getElementById ("first").hidden = true;
+document.getElementById ("second").hidden = true;
+document.getElementById ("third").hidden = false;
+
+}); //check
 
 const cipherTwo = document.getElementById ("cipherB");
-cipherTwo.addEventListener ("click", cipherDos); //check
+cipherTwo.addEventListener ("click", cipherDos = () => {
+
+document.getElementById ("first").hidden = true;
+document.getElementById ("second").hidden = false;
+document.getElementById ("third").hidden = true;
+
+}); //check
 
 // para cambiar a arrow const name = () => {}
-
-function textCipher () {
-    document.getElementById ("first").hidden = true;
-    document.getElementById ("second").hidden = false;
-    document.getElementById ("third").hidden = true;
-}
-
-function textDecipher () {
-    document.getElementById ("first").hidden = true;
-    document.getElementById ("second").hidden = true;
-    document.getElementById ("third").hidden = false; 
-}
-
-function secondDecipher () {
-    document.getElementById ("second").hidden = true;
-    document.getElementById ("third").hidden = false;
-}
-
-function cipherDos () {
-    document.getElementById ("second").hidden = false;
-    document.getElementById ("third").hidden = true;
-}
-
 // crear función para botón cifrar
 
 const cipherClick = () => {
@@ -66,9 +57,19 @@ const decipherClick = () => {
  decipherText.value = cipher.decode(number,word);
  }
 
-
-//hacer que el algoritmo que sucede en el btn cifrar se
-//imprima en el cuadro
+//hacer que el algoritmo que sucede en los botones
+//se impriman en los cuadros
 btnCipher.addEventListener("click",cipherClick)
 btnDecipher.addEventListener("click",decipherClick)
 
+//limpieza datos
+
+const resetOne = document.getElementById("firstReset");
+resetOne.addEventListener ("click", deleteOne = () =>{
+    document.getElementById("cipherForm").reset();
+});
+
+const resetTwo = document.getElementById("secondReset");
+resetTwo.addEventListener ("click", deleteTwo = () =>{
+    document.getElementById("decipherForm").reset();
+});
