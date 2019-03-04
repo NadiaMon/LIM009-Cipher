@@ -9,7 +9,7 @@
   <body>
 
 <!--3 pantallas-->
-      <div id="first" >
+      <div id="first">
       <h1 class="title">Safe Notes</h1>
       <h2 class="subtitle">Tus ideas más seguras que nunca</h2>
       <p class="intro">Si te preocupaba la privacidad de tus ideas o mensajes, Safe Notes es para ti.<br> 
@@ -28,14 +28,14 @@
     puedes seleccionar el botón 'Limpiar campos'</p>
       </div>
       <form id="cipherForm">
-       <input type="text" id="captureText" placeholder="ESCRIBE TU MENSAJE AQUÍ"></input>
-       <input type="number" id="cipherOffset" min="1" placeholder="CLAVE"></input>
+       <input type="text" id="captureText" placeholder="ESCRIBE TU MENSAJE AQUÍ">
+       <input type="number" id="cipherOffset" min="1" placeholder="CLAVE">
        <button type="button" id="btnCipher">Cifrar</button> <!--este botón es para ejecutar el algoritmo cesar-->
-       <input type="text" id="cipherText" placeholder="MENSAJE CIFRADO"></input>
+       <input type="text" id="cipherText" placeholder="MENSAJE CIFRADO">
        <button type="button" class="btn1"  id="firstReset">Limpiar campos</button> 
        <button type="button" class="btn2" id="decipherB">Ir a descifrar</button>
-      </div>
       </form>
+    </div> 
 
     <div id="third" hidden>
       <div id="pantallaDescifrado">
@@ -46,10 +46,10 @@
         5. Si deseas descifrar otro mensaje,<br>puedes seleccionar el botón 'Limpiar campos'</p>
     </div>  
       <form id="decipherForm">
-      <input type="text" id="printText" placeholder="ESCRIBE TU MENSAJE CIFRADO AQUÍ"></input>
-      <input type="number" id="decipherOffset" min="1" placeholder="CLAVE"></input>
+      <input type="text" id="printText" placeholder="ESCRIBE TU MENSAJE CIFRADO AQUÍ">
+      <input type="number" id="decipherOffset" min="1" placeholder="CLAVE">
       <button type="button" id="btnDecipher">Descifrar</button> <!--este botón es para ejecutar el algoritmo cesar-->
-      <input type="text" id="decipherText" placeholder="MENSAJE DESCIFRADO"></input>
+      <input type="text" id="decipherText" placeholder="MENSAJE DESCIFRADO">
       <button type="button" class="btn3" id="secondReset">Limpiar campos</button>
       <button type="button" class="btn4" id="cipherB">Ir a cifrar</button> 
       </form>
