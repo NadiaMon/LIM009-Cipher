@@ -74,6 +74,7 @@ const decipherClick = () => {
 
 //hacer que el algoritmo que sucede en los botones
 //se impriman en los cuadros
+//btnCipher.addEventListener("click",cipherClick) AQUI SALE ERROR EN LA CONSOLA
 const btnCipher=document.getElementById(btnCipher);
 btnCipher.addEventListener("click",cipherClick)
 
