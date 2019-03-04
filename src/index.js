@@ -37,7 +37,6 @@ document.getElementById ("third").hidden = true;
 }); //check
 
 // para cambiar a arrow const name = () => {}
-// crear función para botón cifrar
 
 const cipherClick = () => {
 
