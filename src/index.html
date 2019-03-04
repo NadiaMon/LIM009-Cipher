@@ -20,20 +20,22 @@
       </div>
 
     <div id="second">
+       <div id="pantallaCifrado">
        <h3 class="cipherTitle">Cifrando<br> tu mensaje</h1>
        <h4 class="subCipher">Instrucciones para cifrar tu mensaje</h4>
-       <p class="instrucciones">Escribe el mensaje que desees cifrar<br>Selecciona la clave para cifrar<br>
-      Dale click al botón 'Cifrar'<br>Espera tu mensaje y listo.<br>Si deseas cifrar otro mensaje,<br>
+       <p class="instrucciones">1. Escribe el mensaje que desees cifrar<br>2. Selecciona la clave para cifrar<br>
+      3. Dale click al botón 'Cifrar'<br>4. Espera tu mensaje y listo.<br>5. Si deseas cifrar otro mensaje,<br>
     puedes seleccionar el botón 'Limpiar campos'</p>
-     <form id="cipherForm">
-       <input type="text" id="captureText" placeholder="Aquí va tu mensaje..."></input>
+       </div>
+      <form id="cipherForm">
+       <input type="text" id="captureText" placeholder="ESCRIBE TU MENSAJE AQUÍ"></input>
        Recuerda seleccionar el offset: <input type="number" id="cipherOffset" min="1"></input>
        <button type="button" id="btnCipher">Cifrar</button> <!--este botón es para ejecutar el algoritmo cesar-->
-       <input type="text" id="cipherText"></input>
-     </form>
+       <input type="text" id="cipherText" placeholder="MENSAJE CIFRADO"></input>
+      </div>
        <button type="button" class="btn1"  id="firstReset">Limpiar campos</button> 
        <button type="button" class="btn2" id="decipherB">Ir a descifrar</button>
-     </div>
+    </form>
 
     <div id="third" hidden>
       <h1>DecipherNotes</h1>
