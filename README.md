@@ -87,10 +87,16 @@ La creación de esta aplicación web, permitirá al usuario cifrar y descifrar m
 
 1. El primer prototipo mostraba solo una pantalla, con el título de la aplicación. Un input de texto para ingresar datos. Se mostraría un cuadro para elegir el offset, además de los botones de cifrar y descifrar. Al darle click a cualquiera de los botones, ya sea cifrar o descifrar, la aplicación lo llevaría a una segunda pantalla, en la cual se mostraría el resultado cifrado o descifrado.
 
+![primero](src/images/primero.png)
 
+2. Luego del feedback recibido se decidió realizar solo una pantalla. Esta mostraría el título de la aplicación, instrucciones (ya que no todos los usuarios supieron qué tenían que hacer y para qué debían escribir una clave), los cuadros de textos, el offset a elegir y los botones de Cifrar o Descifrar.  
 
-Feedback: 
-2. 
+![segundo](src/images/segundo.png)
+
+3. Una vez probado el segundo prototipo, se decidió dividir el contenido en 3 pantallas, esto para comodidad de todos los usuarios. La primera pantalla era una bienvenida, además de tener los botones de Cifrado y Descifrado, para que el usuario pueda elegir la operación a realizar. La pantalla de cifrado contendría el texto a cifrar, la elección del offset, el botón Cifrar y el resultado, además se incluyeron instrucciones puntuales para la operación. También se agregó un botón de limpiar campos, por si el usuario quería ingresar diferentes mensajes a cifrar y un botón de Ir a descifrar, por si quería descifrar algo estando en esa pantalla y no tenga que volver al inicio. La pantalla de descifrado contendría el texto a descifrar, la elección del offset, el botón Descifrar y el resultado, además se incluyeron instrucciones puntuales para la operación. También se agregó un botón de limpiar campos, por si el usuario quería ingresar diferentes mensajes a descifrar y un botón de Ir a Cifrar, ya que leyendo el resultado del mensaje descifrado podría querer cifrar una respuesta o alguna otra cosa diferente.
+
+![tercero](src/images/tercero.png)
+
 
 
 
