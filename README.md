@@ -48,7 +48,13 @@ Nuestro público objetivo principal son jóvenes de 18 a 25 años. Jóvenes que 
 
 Algunas características de nuestro público:
 
-* 
+* Si bien hay un rango de edades para el público objetivo principal, el uso de la aplicación está abierto a personas de diferentes generaciones. Podrían usarla tanto adolescentes como personas adultas. Por lo que se pensó en una interfaz que tome en consideración todas las necesidades. 
+
+* La interfaz debe ser amigable e intuitiva. Como no todos los usuarios sabrán el funcionamiento de la aplicación web, se incluyó un texto corto y puntual con instrucciones de uso. Se usaron colores amigables y se jerarquizó la información, para hacer más ordenado todo. 
+
+## ¿Cuáles son los objetivos de estos usuarios en relación con tu producto?
+
+
 
 
 
