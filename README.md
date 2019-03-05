@@ -41,7 +41,7 @@ En este proyecto aprenderás a construir una aplicación web que interactúe con
 * Organizar tu tiempo y priorizar tareas en un entorno de alta incertidumbre.
 
 ***
-# PROCESO DE DISEÑO
+# PROCESO - USUARIOS
 
 ## ¿Quiénes son los principales usuarios de nuestro producto?
 
@@ -67,7 +67,7 @@ Los objetivos de los usuarios en relación al uso de la aplicación web:
 La creación de esta aplicación web, permitirá al usuario cifrar y descifrar mensajes. Y esto hará que dejen de preocuparse si alguien lee sus apuntes personales de “casualidad”, resguardando así ideas o textos personales. A su vez, podrá descrifrar mensajes que otros usuarios de la aplicación le envíen, teniendo la clave del cifrado, o compartir mensajería secreta con otra persona.
 
 ***
-# PROCESO Y DECISIONES DE DISEÑO
+# PROCESO - DECISIONES DE DISEÑO
 
 ## REALIZACIÓN USER STORIES
 
@@ -79,7 +79,9 @@ La creación de esta aplicación web, permitirá al usuario cifrar y descifrar m
 
 4. Como usuario quiero poder ingresar varios mensajes a cifrar o descifrar.
 
-## 
+## DIAGRAMA DE FLUJO
+
+![diagrama]()
 
 
 
