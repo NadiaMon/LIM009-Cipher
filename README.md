@@ -10,7 +10,7 @@ O tal vez quieres mantener una conversación privada con alguien, organizar un e
 Usaremos el **cifrado César**.
 Cifrar significa codificar. El cifrado César es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
 
-![Sin titulo](images/cifrado-cesar.png)
+![](LIM009-Cipher/src/images/cifrado-cesar.png)
 
 El cifrado césar es una de las técnicas más simples para cifrar un mensaje. Es un tipo de cifrado por sustitución, es decir que cada letra del texto original es reemplazada por otra que se encuentra un número fijo de posiciones (desplazamiento) más adelante en el mismo alfabeto.
 
