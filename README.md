@@ -25,5 +25,30 @@ Alfabeto cifrado: D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
 En la actualidad, todos los cifrados de sustitución simple se descifran con mucha facilidad y, aunque en la práctica no ofrecen mucha seguridad en la comunicación por sí mismos; el cifrado César sí puede formar parte de sistemas más complejos de codificación, como el cifrado Vigenère, e incluso tiene aplicación en el sistema ROT13.
 
 ***
+# OBJETIVOS DE APRENDIZAJE
+
+En este proyecto aprenderás a construir una aplicación web que interactúe con el usuario a través del navegador y la lógica basada en esa interacción. Dicho en palabras sencillas, aprenderás a:
+
+* Pintar elementos de formulario en la pantalla usando HTML y CSS.
+* Permitir al usuario interactuar (eventos del DOM) y hacer algo cuando ocurran dichos eventos (cifrar/descifrar).
+* Manipular strings (cadenas de texto).
+* Usar control de flujo (bucles, condicionales, ...).
+* Actualizar la pantalla con los resultados (manipular el DOM).
+* Implementar funciones dada una descripción de su comportamiento.
+* Verificar tu implementación con pruebas unitarias.
+* Entender las necesidades del usuario y cómo proponer una solución.
+* Organizar tu tiempo y priorizar tareas en un entorno de alta incertidumbre.
+
+***
+# PROCESO DE DISEÑO
+
+## ¿Quiénes son los principales usuarios de nuestro producto?
+
+Nuestro público objetivo principal son jóvenes de 18 a 25 años. Jóvenes que se encuentran estudiando y a la par trabajando. En algunos casos son personas independientes, jóvenes que buscan tener algún emprendimiento y tienen algunas ideas sobre lo que quieren hacer. Grupos a los que les gusta mantener la privacidad de sus comunicaciones.
+
+Algunas características de nuestro público:
+
+* 
+
 
 
