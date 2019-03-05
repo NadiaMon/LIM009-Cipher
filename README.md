@@ -85,6 +85,12 @@ La creación de esta aplicación web, permitirá al usuario cifrar y descifrar m
 
 ## PROTOTIPOS
 
+1. El primer prototipo mostraba solo una pantalla, con el título de la aplicación. Un input de texto para ingresar datos. Se mostraría un cuadro para elegir el offset, además de los botones de cifrar y descifrar. Al darle click a cualquiera de los botones, ya sea cifrar o descifrar, la aplicación lo llevaría a una segunda pantalla, en la cual se mostraría el resultado cifrado o descifrado.
+
+
+
+Feedback: 
+2. 
 
 
 
