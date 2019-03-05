@@ -3,7 +3,7 @@
 Eres de las personas que suele tener la aplicación de notas del celular llena o tener un documento en tu computadora lleno de apuntes y en algunos casos de información que no quieres compartir con nadie.Te preocupa que alguien use tu computadora y lea tus notas, tranquilx, esta aplicación web fue creada pensando en ti. 
 
 Ahora puedes cifrar tus ideas, apuntes o lo que quieras y no preocuparte si alguien las encuentra, ya que solo tú puedes saber lo que escribiste. 
-O tal vez quieres mantener una conversación privada con alguien, organizar un evento secreto, tranquilx, puedes enviarle el mensaje cifrado a esa persona junto con la clave, que usaste para cifrar, y listo. Ambos podrán comunicarse de manera segura.
+O tal vez quieres mantener una conversación privada con alguien, organizar un evento secreto, tranquilx, puedes enviarle el mensaje cifrado a esa persona junto con la clave, que usaste para cifrar, y listo. Ambos podrán comunicarse de manera segura. 😃😄
 
 *** 
 
@@ -53,6 +53,9 @@ Algunas características de nuestro público:
 * La interfaz debe ser amigable e intuitiva. Como no todos los usuarios sabrán el funcionamiento de la aplicación web, se incluyó un texto corto y puntual con instrucciones de uso. Se usaron colores amigables y se jerarquizó la información, para hacer más ordenado todo. 
 
 ## ¿Cuáles son los objetivos de estos usuarios en relación con tu producto?
+
+Los objetivos de los usuarios en relación al uso de la aplicación web:
+
 
 
 
