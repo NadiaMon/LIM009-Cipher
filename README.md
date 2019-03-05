@@ -5,12 +5,14 @@ Eres de las personas que suele tener la aplicación de notas del celular llena o
 Ahora puedes cifrar tus ideas, apuntes o lo que quieras y no preocuparte si alguien las encuentra, ya que solo tú puedes saber lo que escribiste. 
 O tal vez quieres mantener una conversación privada con alguien, organizar un evento secreto, tranquilx, puedes enviarle el mensaje cifrado a esa persona junto con la clave, que usaste para cifrar, y listo. Ambos podrán comunicarse de manera segura.
 
+*** 
+
 # ¿QUÉ CIFRADO USAREMOS?
 
 Usaremos el **cifrado César**.
 Cifrar significa codificar. El cifrado César es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
 
-![](LIM009-Cipher/src/images/cifrado-cesar.png)
+![cifrado cesar](src/images/cifrado-cesar.png)
 
 El cifrado césar es una de las técnicas más simples para cifrar un mensaje. Es un tipo de cifrado por sustitución, es decir que cada letra del texto original es reemplazada por otra que se encuentra un número fijo de posiciones (desplazamiento) más adelante en el mismo alfabeto.
 
@@ -21,5 +23,7 @@ La palabra CASA se cifra como FDVD.
 Alfabeto sin cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 Alfabeto cifrado: D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
 En la actualidad, todos los cifrados de sustitución simple se descifran con mucha facilidad y, aunque en la práctica no ofrecen mucha seguridad en la comunicación por sí mismos; el cifrado César sí puede formar parte de sistemas más complejos de codificación, como el cifrado Vigenère, e incluso tiene aplicación en el sistema ROT13.
+
+***
 
 
