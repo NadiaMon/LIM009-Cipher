@@ -1,6 +1,6 @@
 //definir variables y funciones para cambiar de un div a otro
 
-const firstBtn=document.getElementById("optionCipher");
+const firstBtn = document.getElementById("optionCipher");
 firstBtn.addEventListener("click",()=>{
 
 document.getElementById("first").hidden=true;
@@ -58,6 +58,9 @@ const cipherClick=()=>{
  cipherText.value=cipher.encode(number,word);
  }
 
+const btnCipher=document.getElementById("btnCipher");
+btnCipher.addEventListener("click",cipherClick)
+
 const decipherClick=()=>{
  
  let printText=document.getElementById("printText");
@@ -72,20 +75,17 @@ const decipherClick=()=>{
  decipherText.value=cipher.decode(number,word);
  }
 
-//hacer que el algoritmo que sucede en los botones
-//se impriman en los cuadros
-
-btnCipher.addEventListener("click",cipherClick)
+const btnDecipher=document.getElementById("btnDecipher");
 btnDecipher.addEventListener("click",decipherClick)
 
 //limpieza datos
 
-const resetOne=document.getElementById("firstReset");
-resetOne.addEventListener("click",()=>{
+const resetOne = document.getElementById("firstReset");
+resetOne.addEventListener("click", () =>{
     document.getElementById("cipherForm").reset();
 });
 
-const resetTwo=document.getElementById("secondReset");
-resetTwo.addEventListener("click",()=>{
+const resetTwo = document.getElementById("secondReset");
+resetTwo.addEventListener("click", () =>{
     document.getElementById("decipherForm").reset();
 });
