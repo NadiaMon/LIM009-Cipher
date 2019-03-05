@@ -1,16 +1,17 @@
 # ANTECEDENTES
 
-Eres de las personas que suele tener la aplicación de notas del celular llena o tener un documento en tu computadora lleno de apuntes y en algunos casos de información que no quieres compartir con nadie.Te preocupa que alguien use tu computadora y lea tus notas, tranquilx, esta aplicación web fue creada pensando en ti. 
+Eres de las personas que suele tener la aplicación de notas del celular llena o tener un documento en tu computadora lleno de apuntes y en algunos casos de información que no quieres compartir con nadie.Te preocupa que alguien use tu computadora y lea tus notas personales, tranquilo, esta aplicación web fue creada pensando en ti. 
 
 Ahora puedes cifrar tus ideas, apuntes o lo que quieras y no preocuparte si alguien las encuentra, ya que solo tú puedes saber lo que escribiste. 
-O tal vez quieres mantener una conversación privada con alguien, organizar un evento secreto, tranquilx, puedes enviarle el mensaje cifrado a esa persona junto con la clave, que usaste para cifrar, y listo. Ambos podrán comunicarse de manera segura. 😃😄
+O tal vez quieres mantener una conversación privada con alguien, organizar un evento secreto, tranquilo, puedes enviarle el mensaje cifrado a esa persona junto con la clave, que usaste para cifrar, y listo. Ambos podrán comunicarse de manera segura. 😃😄
 
 *** 
 
 # ¿QUÉ CIFRADO USAREMOS?
 
 Usaremos el **cifrado César**.
-Cifrar significa codificar. El cifrado César es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
+Cifrar significa codificar. El cifrado César es uno de los primeros métodos de cifrado conocidos. 
+El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
 
 ![cifrado cesar](src/images/cifrado-cesar.png)
 
@@ -44,7 +45,7 @@ En este proyecto aprenderás a construir una aplicación web que interactúe con
 
 ## ¿Quiénes son los principales usuarios de nuestro producto?
 
-Nuestro público objetivo principal son jóvenes de 18 a 25 años. Jóvenes que se encuentran estudiando y a la par trabajando. En algunos casos son personas independientes, jóvenes que buscan tener algún emprendimiento y tienen algunas ideas sobre lo que quieren hacer. Grupos a los que les gusta mantener la privacidad de sus comunicaciones.
+Nuestro público objetivo principal son jóvenes de 18 a 25 años. Jóvenes que se encuentran estudiando y a la par trabajando. En algunos casos son personas independientes, jóvenes que buscan tener algún emprendimiento y tienen algunas ideas sobre lo que quieren hacer. Grupos a los que les gusta mantener la privacidad de sus comunicaciones o ideas.
 
 Algunas características de nuestro público:
 
@@ -62,6 +63,24 @@ Los objetivos de los usuarios en relación al uso de la aplicación web:
 * Compartir mensajes secretos con otra persona.
 
 ## ¿Cómo crees que el producto que estás creando está resolviendo sus problemas?
+
+La creación de esta aplicación web, permitirá al usuario cifrar y descifrar mensajes. Y esto hará que dejen de preocuparse si alguien lee sus apuntes personales de “casualidad”, resguardando así ideas o textos personales. A su vez, podrá descrifrar mensajes que otros usuarios de la aplicación le envíen, teniendo la clave del cifrado, o compartir mensajería secreta con otra persona.
+
+***
+# PROCESO Y DECISIONES DE DISEÑO
+
+## REALIZACIÓN USER STORIES
+
+1. Como usuario quiero leer sobre el funcionamiento de la aplicación de manera clara.
+
+2. Como usuario quiero poder cifrar mis mensajes y elegir la clave de cifrado.
+
+3. Como usuario quiero poder descifrar mensajes que me envíen usando la clave que me brinden.
+
+4. Como usuario quiero poder ingresar varios mensajes a cifrar o descifrar.
+
+## 
+
 
 
 
