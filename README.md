@@ -1,11 +1,11 @@
-#ANTECEDENTES
+# ANTECEDENTES
 
 Eres de las personas que suele tener la aplicación de notas del celular llena o tener un documento en tu computadora lleno de apuntes y en algunos casos de información que no quieres compartir con nadie.Te preocupa que alguien use tu computadora y lea tus notas, tranquilx, esta aplicación web fue creada pensando en ti. 
 
 Ahora puedes cifrar tus ideas, apuntes o lo que quieras y no preocuparte si alguien las encuentra, ya que solo tú puedes saber lo que escribiste. 
 O tal vez quieres mantener una conversación privada con alguien, organizar un evento secreto, tranquilx, puedes enviarle el mensaje cifrado a esa persona junto con la clave, que usaste para cifrar, y listo. Ambos podrán comunicarse de manera segura.
 
-#¿QUÉ CIFRADO USAREMOS?
+# ¿QUÉ CIFRADO USAREMOS?
 
 Usaremos el **cifrado César**.
 Cifrar significa codificar. El cifrado César es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
