@@ -81,7 +81,7 @@ La creación de esta aplicación web, permitirá al usuario cifrar y descifrar m
 
 ## DIAGRAMA DE FLUJO
 
-![diagrama]()
+![diagrama](src/images/diagrama.jpg)
 
 
 
