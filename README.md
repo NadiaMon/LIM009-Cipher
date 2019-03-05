@@ -54,7 +54,16 @@ Algunas características de nuestro público:
 
 ## ¿Cuáles son los objetivos de estos usuarios en relación con tu producto?
 
-Los objetivos de los usuarios en relación al uso de la aplicación web:
+Los objetivos de los usuarios en relación al uso de la aplicación web: 
+
+* Poder cifrar ideas, mensajes personales con una clave a elección.
+* Poder descifrar mensajes, ingresando la clave proporcionada. 
+* Mantener información personal o textos que el usuario considere de manera cifrada.
+* Compartir mensajes secretos con otra persona.
+
+## ¿Cómo crees que el producto que estás creando está resolviendo sus problemas?
+
+
 
 
 
