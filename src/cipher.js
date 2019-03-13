@@ -5,7 +5,6 @@ window.cipher = {
     let textNew=""; //almacenará texto codificado
     //bucle para recorrer cada letra en el texto
     for (let i=0;i<string.length;i++){
-      //crear condicional para atrapar el espacio 
       if (string[i].charCodeAt()>=65 && string[i].charCodeAt()<=90){
         //almacenará el número ascii que le corresponde a los caracteres del texto a codificar
         let asciiNumber =((string[i].charCodeAt())-65+offset)%26+65;
@@ -22,7 +21,6 @@ return textNew;
   decode: (offset,string) => {
     let newText="";
     for (let i=0;i<string.length;i++){
-      //número ascii del espacio 32, se crea la sig condición
       if (string[i].charCodeAt()>=65 && string[i].charCodeAt()<=90){
       let ascii =((string[i].charCodeAt())+65-offset)%26+65;
       let letters = String.fromCharCode(ascii);
@@ -33,4 +31,4 @@ return textNew;
     }
 return newText;
    }
-}
+};

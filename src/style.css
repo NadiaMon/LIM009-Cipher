@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900'); /*títulos*/
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900'; /*títulos*/
 @import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900'; /*cuerpo de texto*/
 
 * {
@@ -7,52 +7,48 @@
   padding: 0;  
 }
 
-/*bienvenida*/
+.encabezado {
+  background-color: #524C9F;
+  height: 120px;
+}
 
-#first {
-  width: 100%;
-  height: 100%;
-  text-align: left;   
-  border-radius: 5px;
-  padding-top:110px;
+.title {
+  font-family: 'Montserrat', sans-serif, semi-bold;
+  padding-top: 10px;
+  color: white;
+  font-size: 70px;
+  text-align: center;
+ } 
+
+.pantalla {
+  background-image: url(images/fondo-web.png);
+  background-repeat: no-repeat;
+  height: 600px; 
   padding-bottom: 145px;
   padding-left:70px;
   padding-right: 70px;
-  background-image: url(images/fondo-web.png);
-  background-repeat: no-repeat;
-  background-position: right;
-  }
-
-.title {
-   font-family: 'Montserrat', sans-serif, semi-bold;
-   padding-top: 40px;
-   padding-left:10px;
-   color: #524C9F;
-   font-size:80px;
-  } 
+ }
 
 .subtitle {
-   font-family: 'Montserrat', sans-serif, semi-bold;
-   padding-top:10px;
-   padding-left:10px; 
-   font-size:30px;
-   color: #EDC31B;
-  }  
+  font-family: 'Montserrat', sans-serif, semi-bold;
+  padding-top: 150px;
+  font-size: 40px;
+  line-height: 40px;
+  color: #EDC31B;
+ }  
 
 .intro {
    font-family: 'Roboto', sans-serif, medium;
-   padding-top:20px;
    color: #666666;
-   padding-left: 10px;
-   font-size:15px;
-   line-height: 19px;   /*esta es la propiedad para el interlineado*/
+   padding-top: 25px;
+   font-size: 17px;
+   line-height: 25px;   /*esta es la propiedad para el interlineado*/
   }
 
-/*botones primer div*/
-#optionCipher {
+.botones {
    border-radius: 6px;
-   margin: 30px;
-   margin-left: 7px;
+   margin: 40px;
+   margin-left: 3px;
    font-family: 'Montserrat',sans-serif, semi-bold;
    font-size: 17px;
    background-color: #524C9F;
@@ -64,105 +60,80 @@
    cursor: pointer;
   }
 
-  #optionDecipher {
-    border-radius: 6px;
-    margin: 30px;
-    margin-left: 7px;
-    font-family: 'Montserrat',sans-serif, semi-bold;
-    font-size: 17px;
-    background-color: #524C9F;
-    color:white;
-    padding: 8px;
-    width: 150px;
-    height: 40px;
-    border: none;
-    cursor: pointer;
-   }
+/*cifrado y descifrado*/  
 
-/*cifrado*/  
-
-#second {
+.seg-pantalla {
   background-image: url(images/fondo-3.png);
   background-repeat: no-repeat;
-  
+  height: 600px;  
 }
 
-#pantallaCifrado {
-  width: 400px;
-  height: 450px;
-  float: left;  
-}
-
-.cipherTitle {
+.contenedor {
+  /* width: 350px;
+  border: 2px solid #9AD2EA; */
+  border-radius: 5px;
   padding-left: 40px;
-  padding-top: 180px;
+}
+
+.titulo-op {
+  padding-top: 100px;
   font-family: 'Montserrat', sans-serif, extra-bold;
   color: #524C9F;
   font-size:50px;
   text-align: left;
-  line-height: 45px;   
+  line-height: 45px;  
 } 
 
-.subCipher {
-  padding-left: 40px;
+.subtitulo {
   font-family: 'Montserrat', sans-serif, semi-bold;
   padding-top:20px;
   font-size:20px;
   text-align: left;
-  color: #EDC31B;  
+  color: #EDC31B; 
 } 
 
 .instrucciones {
-  padding-left: 40px;
   font-family: 'Roboto', sans-serif, medium;
   padding-top:20px;
   color: #666666;
   font-size:15px;
   text-align: left;
-  line-height: 22px;   /*esta es la propiedad para el interlineado*/   
+  line-height: 22px;  /*esta es la propiedad para el interlineado*/   
 }
 
-#cipherForm {
+.formulario {
   width: 850px;
-  height: 600px;
-  margin-left: 460px;
-  float: top; 
-  /*border: 2px solid #9AD2EA; borrar esto
-  border-radius: 5px;*/     
+  height: 200px;
+  float: right;
+  /* margin-right: 50px;
+  border: 2px solid #9AD2EA; */
+  border-radius: 5px; 
+  right: 50%;
+  transform: translateX(-2%) translateY(-96%);  
 }
 
-#captureText {
+.cajitas {
   width: 800px;
   height: 60px;
+  padding-left: 20px;
   border: 2px solid #524C9F;
-  border-radius: 5px;
-  padding: 8px;
-  margin-top: 220px;
+  border-radius: 5px; 
 }
 
-#cipherText {
- width: 800px;
- height: 60px;
- background-color: white;
- border: 2px solid #524C9F;
- border-radius: 5px;
- padding: 8px;
- margin-top: 30px;
-}
-
-#cipherOffset {
+.numero {
   width: 80px;
   height: 40px;
   padding: 10px;
   background-color: white;
   border: 1.5px solid #524C9F;
   border-radius: 5px;
+  margin-bottom: 20px;
   margin-left: 250px;
 }
 
-#btnCipher {
+.offset-btn {
   border-radius: 6px;
-  margin-top: 30px;
+  margin-top: 20px;
   font-family: 'Montserrat', semi-bold;
   font-size: 15px;
   background-color: #524C9F;
@@ -174,13 +145,12 @@
   margin-left: 10px;
 }
 
-.btn1 {
+.btn-final {
  border-radius: 6px;
  font-family: 'Montserrat', semi-bold;
  font-size: 15px;
  background-color: #524C9F;
  color:white;
- margin-left:450px;
  margin-top:30px;
  padding: 8px;
  width: 170px;
@@ -189,138 +159,18 @@
  cursor: pointer;
  }
 
-.btn2 {
- border-radius: 6px;
- margin-left: 7px;
- font-family: 'Montserrat', semi-bold;
- font-size: 15px;
- background-color: #524C9F;
- color:white;
- padding: 8px;
- width: 170px;
- height: 40px;
- border: none;
- cursor: pointer;
-}
-
-/*descifrado*/
-#third {
-  background-image: url(images/fondo-3.png);
-  background-repeat: no-repeat;
-}
-
-#pantallaDescifrado {
-  width: 400px;
-  height: 450px;
-  float: left;  
-}
-
-.decipherTitle {
-  padding-left: 40px;
-  padding-top: 180px;
-  font-family: 'Montserrat', sans-serif, extra-bold;
-  color: #524C9F;
-  font-size:50px;
-  text-align: left;
-  line-height: 45px;   
-} 
-
-.subDecipher {
-  padding-left: 40px;
-  font-family: 'Montserrat', sans-serif, semi-bold;
-  padding-top:20px;
-  font-size:20px;
-  text-align: left;
-  color: #EDC31B;  
-} 
-
-.instrucciones-2 {
-  padding-left: 40px;
-  font-family: 'Roboto', sans-serif, medium;
-  padding-top:20px;
-  color: #666666;
-  font-size:15px;
-  text-align: left;
-  line-height: 22px;   /*esta es la propiedad para el interlineado*/   
-}
-
-#decipherForm {
-  width: 850px;
-  height: 450px;
-  margin-left: 460px;
-  float: top; 
-  /*border: 2px solid #9AD2EA; borrar esto
-  border-radius: 5px;*/     
-}
-
-#printText {
-  width: 800px;
-  height: 60px;
-  border: 2px solid #524C9F;
-  border-radius: 5px;
-  padding: 8px;
-  margin-top: 220px;
-}
-
-#decipherText {
- width: 800px;
- height: 60px;
- background-color: white;
- border: 2px solid #524C9F;
- border-radius: 5px;
- padding: 8px;
- margin-top: 30px;
-}
-
-#decipherOffset {
-  width: 80px;
-  height: 40px;
-  padding: 10px;
-  background-color: white;
-  border: 1.5px solid #524C9F;
-  border-radius: 5px;
-  margin-left: 250px;
-}
-
-#btnDecipher {
-  border-radius: 6px;
-  margin-top: 30px;
-  font-family: 'Montserrat', semi-bold;
+/*footer*/ 
+ 
+.autora {
+  font-family: 'Montserrat', sans-serif, bold;
   font-size: 15px;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.credito {
   background-color: #524C9F;
-  color:white;
-  width: 170px;
-  height: 40px;
-  border: none;
-  cursor: pointer;
-  margin-left: 10px;
+  height: 60px;
 }
 
-.btn3 {
- border-radius: 6px;
- font-family: 'Montserrat', semi-bold;
- font-size: 15px;
- background-color: #524C9F;
- color:white;
- margin-left:450px;
- margin-top:30px;
- padding: 8px;
- width: 170px;
- height: 40px;
- border: none;
- cursor: pointer;
- }
-
-.btn4 {
- border-radius: 6px;
- margin-left: 7px;
- font-family: 'Montserrat', semi-bold;
- font-size: 15px;
- background-color: #524C9F;
- color:white;
- padding: 8px;
- width: 170px;
- height: 40px;
- border: none;
- cursor: pointer;
-}

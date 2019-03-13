@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
@@ -7,56 +7,71 @@
   </head>
 
   <body>
+    <header class="encabezado">
 
-<!--3 pantallas-->
-      <div id="first">
-      <h1 class="title">Safe Notes</h1>
-      <h2 class="subtitle">Tus ideas más seguras que nunca</h2>
+        <h1 class="title">Safe Notes</h1>
+        
+    </header>
+
+    <main>
+
+    <section class="pantalla" id="first">
+      
+      <h2 class="subtitle">Tus ideas <br>más seguras que nunca</h2>
       <p class="intro">Si te preocupaba la privacidad de tus ideas o mensajes, Safe Notes es para ti.<br> 
         Con esta aplicación podrás cifrar todo eso y si decides compartir tus mensajes,<br>no te preocupes, solo la persona que tenga
         la clave podrá leerlos.<br>Asegúrate que nadie más pueda leer tus mensajes en la compu o el móvil.</p>
-      <button type="button"  id="option-cipher">Cifrar</button> 
-      <button type="button" id="option-decipher">Descifrar</button>
-      </div>
+      <button type="button" class="botones" id="option-cipher">Cifrar</button> 
+      <button type="button" class="botones" id="option-decipher">Descifrar</button>
+     </section>
 
-    <div id="second" hidden>
-      <div id="pantalla-cifrado">
-       <h1 class="cipher-title">Cifrando<br> tu mensaje</h1>
-       <h2 class="sub-cipher">Instrucciones para cifrar tu mensaje</h2>
+    <section class="seg-pantalla" id="second" hidden>
+      <div class="contenedor">
+       <h1 class="titulo-op">Cifrando<br> tu mensaje</h1>
+       <h2 class="subtitulo">Instrucciones para cifrar tu mensaje</h2>
        <p class="instrucciones">1. Escribe el mensaje que desees cifrar<br>2. Escribe un número como clave<br>
       3. Dale click al botón 'Cifrar'<br>4. Espera tu mensaje y listo.<br>5. Si deseas cifrar otro mensaje,<br>
     puedes seleccionar el botón 'Limpiar campos'</p>
       </div>
-      <form id="cipher-form">
-       <input type="text" id="capture-text" placeholder="ESCRIBE TU MENSAJE AQUÍ">
-       <input type="number" id="cipher-offset" min="1" placeholder="CLAVE">
-       <button type="button" id="btn-cipher">Cifrar</button> <!--este botón es para ejecutar el algoritmo cesar-->
-       <input type="text" id="cipher-text" placeholder="MENSAJE CIFRADO">
-       <button type="button" class="btn-form"  id="first-reset">Limpiar campos</button> 
-       <button type="button" class="btn-form" id="decipher-b">Ir a descifrar</button>
+      <form class="formulario" id="cipher-form">
+       <input type="text" class="cajitas" id="capture-text" placeholder="ESCRIBE TU MENSAJE AQUÍ">
+       <input type="number" class="numero"  id="cipher-offset" min="1" placeholder="CLAVE">
+       <button type="button" class="offset-btn" id="btn-cipher">Cifrar</button> <!--este botón es para ejecutar el algoritmo cesar-->
+       <input type="text" class="cajitas" id="cipher-text" placeholder="MENSAJE CIFRADO">
+       <button type="button" class="btn-final"  id="first-reset">Limpiar campos</button> 
+       <button type="button" class="btn-final" id="decipher-b">Ir a descifrar</button>
       </form>
-    </div> 
+    </section> 
 
-    <div id="third" hidden>
-      <div id="pantalla-descifrado">
-      <h1 class="decipher-title">Descifrando tu mensaje</h1>
-      <h2 class="sub-decipher">Instrucciones para descifrar tu mensaje</h2>
-      <p class="instrucciones-2">1. Escribe el mensaje que desees descifrar<br>2. Escribe la clave que te dieron,<br>
+    <section class="seg-pantalla" id="third" hidden>
+      <div class="contenedor">
+      <h1 class="titulo-op">Descifrando<br> tu mensaje</h1>
+      <h2 class="subtitulo">Instrucciones para descifrar tu mensaje</h2>
+      <p class="instrucciones">1. Escribe el mensaje que desees descifrar<br>2. Escribe la clave que te dieron,<br>
        esta es un número <br>3. Dale click al botón 'Descifrar'<br>4. Ahora puedes leer lo que te escribieron<br>
         5. Si deseas descifrar otro mensaje,<br>puedes seleccionar el botón 'Limpiar campos'</p>
-    </div>  
-      <form id="decipher-form">
-      <input type="text" id="print-text" placeholder="ESCRIBE TU MENSAJE CIFRADO AQUÍ">
-      <input type="number" id="decipher-offset" min="1" placeholder="CLAVE">
-      <button type="button" id="btn-decipher">Descifrar</button> <!--este botón es para ejecutar el algoritmo cesar-->
-      <input type="text" id="decipher-text" placeholder="MENSAJE DESCIFRADO">
-      <button type="button" class="btn-form" id="second-reset">Limpiar campos</button>
-      <button type="button" class="btn-form" id="cipher-b">Ir a cifrar</button> 
+      </div>  
+      <form class="formulario" id="decipher-form">
+      <input type="text" class="cajitas" id="print-text" placeholder="ESCRIBE TU MENSAJE CIFRADO AQUÍ">
+      <input type="number" class="numero" id="decipher-offset" min="1" placeholder="CLAVE">
+      <button type="button" class="offset-btn" id="btn-decipher">Descifrar</button> <!--este botón es para ejecutar el algoritmo cesar-->
+      <input type="text" class="cajitas" id="decipher-text" placeholder="MENSAJE DESCIFRADO">
+      <button type="button" class="btn-final" id="second-reset">Limpiar campos</button>
+      <button type="button" class="btn-final" id="cipher-b">Ir a cifrar</button> 
       </form>
-    </div>
+    </section>
 
+    </main>
+
+     <footer class="credito">
+        <p class="autora">©Safe Notes 2019. Hecho por Nadia Montenegro</p>
+    </footer>
+    
     <script src="cipher.js"></script>
     <script src="index.js"></script>
-       
+
+
   </body>
+
+
 </html>
